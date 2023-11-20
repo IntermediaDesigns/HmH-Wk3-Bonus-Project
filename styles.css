@@ -8,6 +8,13 @@ button:hover{
        padding: 1px 4px;
 }
 
+.goldenCow {
+       width: 85px;
+       background-color: #e9e9ed;
+       padding: 1px 4px;
+       display: none;
+}
+
 .sellingContainer {
    display: flex;
    align-items: start;  
