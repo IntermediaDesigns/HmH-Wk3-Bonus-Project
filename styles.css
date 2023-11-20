@@ -10,14 +10,14 @@ button:hover{
 
 .sellingContainer {
    display: flex;
-   align-items: center;   
+   align-items: start;  
    gap: 5px;
    padding-top: 16px;
-   
 }
 
 #billIcon, #planetIcon {
        width: 16px;
+       height: 16px;
 }
 
 #bottleIcon, #workerIcon, #ceoIcon {
@@ -32,9 +32,9 @@ button:hover{
        color: green;
        background-color: #e9e9ed;
        border-style: none;
-       height: 18.5px;
-       font-size: 13.5px;
+       font-size: 14px;
        transition: all 1s;
+       text-align: center;
 }
 
 .cashContainer, .workerContainer, .cowContainer, .farmContainer, .ceoContainer, .planetContainer, .multiContainer {
@@ -49,6 +49,7 @@ button:hover{
 
 #buttonContainer {
        display: flex;
+       flex-wrap: wrap;
        align-items: center;
        align-content: center;
        height: 18.5px;
@@ -63,8 +64,10 @@ button:hover{
 }
 
 #bottleCount {
-       margin: 0;
+       margin: 0px;
+       width: auto;
 }
+
 #bottleCount1, #bottleCount2, #bottleCount3, #bottleCount4, #bottleCount5, #bottleCount6 {
        color: yellow;
        font-size: 16px;
