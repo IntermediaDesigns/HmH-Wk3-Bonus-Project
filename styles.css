@@ -1,0 +1,79 @@
+button:hover{
+       cursor: pointer;
+}
+
+.cow {
+       width: 85px;
+       background-color: #e9e9ed;
+       padding: 1px 4px;
+}
+
+.sellingContainer {
+   display: flex;
+   align-items: center;   
+   gap: 5px;
+   padding-top: 16px;
+   
+}
+
+#billIcon, #planetIcon {
+       width: 16px;
+}
+
+#bottleIcon, #workerIcon, #ceoIcon {
+       width: 12px;
+}
+
+#farmIcon, #cowIcon, #multiIcon {
+       width: 20px;
+}
+
+#milkMoney {
+       color: green;
+       background-color: #e9e9ed;
+       border-style: none;
+       height: 18.5px;
+       font-size: 13.5px;
+       transition: all 1s;
+}
+
+.cashContainer, .workerContainer, .cowContainer, .farmContainer, .ceoContainer, .planetContainer, .multiContainer {
+       display: flex;
+       flex-direction: row;
+       align-items: center;  
+       gap: 5px;
+       margin-top: 16px;
+       margin-bottom: 16px;
+       padding-top: 16px;
+}
+
+#buttonContainer {
+       display: flex;
+       align-items: center;
+       align-content: center;
+       height: 18.5px;
+       gap: 0px;
+}
+
+#hireWorker, #buyCow, #buyFarm, #beCeo, #cowPlanet, #multiverse {
+       border-style: none;
+       font-size: 13px;
+       background-color: #e9e9ed;
+       color: red;
+}
+
+#bottleCount {
+       margin: 0;
+}
+#bottleCount1, #bottleCount2, #bottleCount3, #bottleCount4, #bottleCount5, #bottleCount6 {
+       color: yellow;
+       font-size: 16px;
+       background-color: #808080;
+       border-radius: 10px;
+       width: 100px;
+       height: 25px;
+       align-items: center;
+       display: flex;
+       padding: 1px 4px;
+       justify-content: center;
+}
